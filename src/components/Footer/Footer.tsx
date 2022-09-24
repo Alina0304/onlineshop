@@ -17,7 +17,7 @@ export const Footer: React.FC = ()=>{
                 </div>
 
                 <ul className="footer__nav">
-                    <li className="nav__item">
+                    <li className="nav__item--footer">
                         <h2 className="nav__title">Media</h2>
 
                         <ul className="nav__ul">
@@ -35,7 +35,7 @@ export const Footer: React.FC = ()=>{
                         </ul>
                     </li>
 
-                    <li className="nav__item nav__item--extra">
+                    <li className="nav__item--footer nav__item--extra">
                         <h2 className="nav__title">Technology</h2>
 
                         <ul className="nav__ul nav__ul--extra">
@@ -65,7 +65,7 @@ export const Footer: React.FC = ()=>{
                         </ul>
                     </li>
 
-                    <li className="nav__item">
+                    <li className="nav__item--footer">
                         <h2 className="nav__title">Legal</h2>
 
                         <ul className="nav__ul">
